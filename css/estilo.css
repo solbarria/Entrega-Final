@@ -42,7 +42,7 @@ body {
 }
 
 .tituloPrincipal {
-    color: green;
+    color: white;
     background-color: hotpink;
 }
 
@@ -201,3 +201,22 @@ footer ul li a {
   #respuesta.send {
     color: green;
   }
+
+  .container-img {
+    width:500px;
+    height: 337px;
+    box-shadow: 5px 5px 10px rgba(59, 58, 58, 1);
+    border-radius: 10px;
+    margin: 10px auto;
+    display: block;
+    overflow:hidden;
+}
+.container-img img{
+    width:100%;
+    /* display: block; */
+    /* margin: auto auto; */
+    /* text-align: center; */
+    /* object-fit: contain; */
+}
+
+
